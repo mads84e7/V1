@@ -1,0 +1,58 @@
+h4{
+    background-color: hsla(39, 100%, 50%, 0.7);
+    color: purple;
+    position: absolute;
+    padding: 10px;
+    z-index: 6;
+    top: 119px;
+    left: 50px;
+    font-size: 3.5em;
+}
+.parent{
+    position: relative;
+}
+.parent img:nth-child(1){
+    position: relative;
+    z-index: 5;
+}
+.parent img:nth-child(2){
+    position: relative;
+    top: 30px;
+    right: 69px;
+    z-index: 4;
+}
+img:nth-child(3){
+    position: relative;
+    top: 60px;
+    right: 139px;
+    z-index: 3;
+}
+img:nth-child(4){
+    position: relative;
+    right: 209px;
+    top: 90px;
+    z-index: 2;
+}
+img:nth-child(5){
+    position: relative;
+    right: 278px;
+    top: 120px;
+}
+.slideshow{
+    position: relative;
+    height: 200px;
+    width: 200px;
+}
+.slideshow img:nth-child(1){
+    top: 300px;
+    position: absolute;
+    z-index: 1;
+}
+.slideshow img:nth-child(2){
+    top: 300px;
+    position: absolute;
+    z-index: 2;
+}
+.slideshow:hover img:nth-child(1){
+    z-index: 3;
+}

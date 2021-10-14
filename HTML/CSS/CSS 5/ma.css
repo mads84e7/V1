@@ -1,0 +1,31 @@
+html{
+    font-size:1rem;
+}
+.list{
+    width: 400px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-collapse: collapse;
+    background-color: #9497db;
+}
+table, tr, th, td{
+    
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-collapse: collapse;
+}
+th{
+    background-color: #9497db;
+}
+ul{
+    list-style-image: url("shop.svg");
+}
+table{
+    width: 2000px;
+}
+.table{
+    width: 400px;
+    font-size: 28px;
+}

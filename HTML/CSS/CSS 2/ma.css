@@ -1,0 +1,30 @@
+ body 
+{
+    background-color: white;
+    /*background-color: yellowgreen;*/
+}
+/*
+p 
+{
+    color: white;
+}
+.mq
+{
+    background-color:rgba(25, 136, 2, 0.5);
+}
+.mw{
+    background-color: rgb(114, 114, 114);
+}
+.me{
+    background-color: rgb(2, 52, 102);
+}*/
+
+li:nth-child(odd)
+{
+    background-color: #ddd
+}
+
+li:nth-child(even)
+{
+    background-color:#bbb
+}

@@ -1,0 +1,19 @@
+body
+      {
+        text-align: Center;
+      }
+table, tr, th, td {
+    
+    width: 600px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-collapse: collapse;
+}
+table
+      {
+        background-image: url('bricks.jpg');
+        margin: auto;
+      }
+
+

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+body{
+    background-color: hsl(212, 29%, 19%);
+    max-width: 1200px;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: hsl(39, 100%, 50%);
+    border-width: 5px;
+    border-collapse: collapse;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+hr{
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content:  center;
+    border-style: solid;
+    border-color: hsl(212, 29%, 79%);
+    border-collapse: collapse;
+    background-color: hsl(212, 29%, 79%);
+    font-family: 'Slabo 27px', serif;
+
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content:  center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 0px;
+    color: hsl(212, 29%, 79%);
+    
+}
+.li1{
+
+}
+.li2{
+
+}
+.li3{
+
+}
+.li4{
+
+}
+.li5{
+
+}
+.li6{
+
+}
+main{
+    background-color: hsl(212, 29%, 79%);
+    display: flex;
+    justify-content:  space-around;
+}
+h3{
+    
+}
+p{
+    
+}
+.div1{
+    
+}
+.div2{
+    
+}
+footer{
+    background-color: hsl(212, 29%, 79%);
+    display: flex;
+    justify-content:  center;
+    
+}

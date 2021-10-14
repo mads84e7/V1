@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.container1{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: hsl(0, 0%, 91%);
+}
+.container2{
+    max-width: 1200px;
+    background-color: hsl(0, 0%, 91%);
+    
+}
+.ul1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+    font-family: 'PT Serif', serif;
+}
+.li1{
+    list-style: none;
+}
+.div1{
+    display: flex;
+    justify-content: center;
+}
+.log{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.img1{
+    margin: auto;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+.ul2{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 0px;
+}
+.div2{
+    position: relative;
+    left: 20px;
+    
+}
+.div2 input[type=text]{
+    padding: 5px;
+    padding-left: 30px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    border-radius: 10px;
+    height: 20px;
+    outline: 0px;
+    background-color: hsl(0, 0%, 80%);
+    align-items: center;
+}
+.img2{
+    position: absolute;
+    top: 13px;
+    left: 5px;
+    width: 20px;
+    padding: 5px, 5px;
+}
+.img3{
+    position: absolute;
+    top: 13px;
+    left: 250px;
+    width: 20px;
+    padding: 5px, 5px;
+}
+.img4{
+    border-radius: 10px;
+    width: 197px;
+}
+.div3{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0px;
+}
+.div4{
+    display: flex;
+    gap: 10px;
+}
+.div5{
+    display: flex;
+    flex-grow: 1;
+    border-style: solid;
+    border-color: green;
+    border-width: 2px;
+    border-radius: 10px;
+}
+.p1{
+    margin: 0px;
+}
+.img4{
+    background-color: hsl(0, 0%, 80%);
+}
+.input1{
+    border-radius: 10px;
+    border-width: 0px;
+    width: 10mm;
+}
+.køb{
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    background-color: green;
+    flex-grow: 1;
+}
+.box1{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.box2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}

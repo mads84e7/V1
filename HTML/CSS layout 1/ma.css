@@ -1,0 +1,60 @@
+body{
+    color: white;
+    font-family: ;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: hsl(196, 56%, 16%);
+    border-width: 1px;
+    border-collapse: collapse;
+    background-color: hsl(196, 56%, 16%);
+    
+}
+span{
+    color: hsl(21, 73%, 56%);
+}
+p{
+    
+}
+nav{
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-color: hsl(188, 100%, 36%);
+    border-width: 1px;
+    border-collapse: collapse;
+    background-color: hsl(188, 100%, 36%);
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 0px;
+    
+}
+.li1:hover{
+    background-color: violet;
+}
+.li2:hover{
+    background-color: violet;
+}
+.li3:hover{
+    background-color: violet;
+}
+.li4:hover{
+    background-color: violet;
+}
+.li5:hover{
+    background-color: violet;
+}
+.li6:hover{
+    background-color: violet;
+}
+.li7:hover{
+    background-color: violet;
+}

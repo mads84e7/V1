@@ -1,0 +1,67 @@
+body{
+    background-color: hsl(194, 100%, 31%);
+    color: white;
+    
+}
+.container{
+    min-width: 1000px;
+    padding: 1.5rem;
+}
+.answer{
+    color: rgb(1, 78, 1);
+}
+li{
+    display: inline-block;
+    margin: 10px;
+}
+img{
+    margin: auto;
+    display: block;
+}
+table, tr, th{
+    width: 600px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-collapse: collapse;
+    
+}
+/* .t2, tr, th{
+    width: 600px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-collapse: collapse;
+} */
+.female{
+    width: 600px;
+    border-style: solid;
+    border-width: 1px;
+    border-collapse: collapse;
+    background-color: #ccc;
+}
+.male{
+    width: 600px;
+    border-style: solid;
+    border-width: 1px;
+    border-collapse: collapse;
+    background-color: #bbb;
+}
+table{
+    background-color: white;
+    color: black;
+}
+th{
+    background-color: hsl(194, 100%, 31%);
+    color: white;
+}
+td{
+    width: 600px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-collapse: collapse;
+}
+.t2 .male{
+    display: none;
+}
