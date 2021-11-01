@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.header, .footer{
+    background-color: #666;
+    height: 50px;
+    color: white;
+}
+.columns{
+    display: flex;
+    margin: 0px;
+    height: calc(100vh - 100px);
+}
+.content{
+    background-color: #ccc;
+    flex-grow: 1;
+    order: 1;
+}
+.sidebar-first{
+    background-color: #999;
+    flex-grow: 0.20;
+}
+.sidebar-second{
+    order: 2;
+    background-color: #999;
+    flex-grow: 0.20;
+}

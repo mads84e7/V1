@@ -1,0 +1,122 @@
+
+.div{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.parent:first-of-type{
+    background-color: #ccc;
+    display: flex;
+    justify-content: flex-start;
+}
+.parent:nth-of-type(2){
+    background-color: #ccc;
+    display: flex;
+    justify-content: flex-end;
+}
+.parent:nth-of-type(3){
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+}
+.parent:nth-of-type(4){
+    background-color: #ccc;
+    display: flex;
+    justify-content: space-between;
+}
+.parent:nth-of-type(5){
+    background-color: #ccc;
+    display: flex;
+    justify-content: space-around;
+}
+.parent:nth-of-type(6){
+    height: 100px;
+    background-color: #ccc;
+    display: flex;
+    align-items: flex-start;
+}
+.parent:nth-of-type(7){
+    height: 100px;
+    background-color: #ccc;
+    display: flex;
+    align-items: flex-end;
+}
+.parent:nth-of-type(8){
+    height: 100px;
+    
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+}
+.parent:nth-of-type(9){
+    background-color: #ccc;
+    display: flex;
+    flex-wrap: wrap;
+}
+.parent:nth-of-type(9) > .child{
+    width: 33.33%;
+}
+.parent:nth-of-type(10){
+    background-color: #ccc;
+    display: flex;
+    height: 100px;
+}
+.parent:nth-of-type(10) > .child:nth-of-type(4){
+    align-self: flex-end;
+}
+.parent:nth-of-type(11){
+    background-color: #ccc;
+    display: flex;
+    order: 4;
+}
+.parent:nth-of-type(11) > .child:nth-of-type(1){
+    order: 1;
+}
+.parent:nth-of-type(11) > .child:nth-of-type(4){
+    order: -1;
+}
+.parent:last-of-type{
+    background-color: #ccc;
+    display: flex;
+}
+.parent:last-of-type > .child:nth-of-type(1){
+    flex: auto;
+}
+.parent:last-of-type > .child:nth-of-type(4){
+    flex: auto;
+}
+.child:first-child {
+    background-color: red;
+    color: #fff;
+    width: 100px;
+    height: 70px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 42px;
+}
+.child:nth-child(2) {
+    background-color: green;
+    color: #fff;
+    width: 100px;
+    height: 70px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 42px;
+}
+.child:nth-child(3) {
+    background-color: blue;
+    color: #fff;
+    width: 100px;
+    height: 70px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 42px;
+}
+.child:last-child {
+    background-color: orange;
+    color: #fff;
+    width: 100px;
+    height: 70px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 42px;
+}

@@ -1,0 +1,24 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0px;
+    
+}
+.header, .footer{
+    background-color: #666;
+    height: 50px;
+}
+.columns{
+    display: flex;
+    margin: 0px;
+    height: 100vh;
+}
+.content{
+    background-color: #ccc;
+    flex-grow: 1;
+}
+.sidebar{
+    background-color: #999;
+    flex-grow: 0.25;
+}

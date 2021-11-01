@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+body{
+    background-image: url("Subtle-Stripes.svg");
+    height: 100vh;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: black;
+    border-collapse: collapse;
+    color: orange;
+    justify-content: center;
+    align-items: center;
+
+}
+.bill{
+    display: flex;
+    justify-content: center;
+    height: 29vh;
+    background-image: url("header.jpg");
+    background-size: cover;
+    background-position-y: center;
+    position:relative;
+}
+h1{
+    color: white;
+}
+h2{
+    color: orange;
+}
+.div1{
+    position: absolute;
+    padding: 0px;
+    left: 30px;
+    background-color: rgba(70, 70, 70, 0.5);
+}
+.billede{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.c1, .c2, .c3, .c4, .c5, .c6{
+    background-color: white;
+    width: 300px;
+    
+}
+img{
+    width: 300px;
+}
+.div2{
+    background-color: black;
+    color: orange;
+    text-align: center;
+}
+.p1{
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    width: 60px;
+    background-color: black;
+    color: orange;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
