@@ -1,18 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap');
 body{
+    margin: 0px;
     background-image: url("Subtle-Stripes.svg");
-    height: 100vh;
 }
 .box{
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 20px;
     background-color: black;
     border-collapse: collapse;
     color: orange;
     justify-content: center;
     align-items: center;
-
+}
+ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+li{
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+a{
+    color: orange;
 }
 .bill{
     display: flex;
@@ -25,17 +36,31 @@ body{
 }
 h1{
     color: white;
+    font-family: 'Roboto';
+    font-weight: 300;
 }
 h2{
     color: orange;
+    font-family: 'Roboto';
+    font-weight: 700;
 }
 .div1{
+    margin: 10px;
     position: absolute;
-    padding: 0px;
-    left: 30px;
+    padding: 10px;
+    left: 5px;
     background-color: rgba(70, 70, 70, 0.5);
 }
+.p{
+   color: rgba(70, 70, 70, 0.5);
+   font-style: italic;
+}
+p{
+    font-family: 'Roboto';
+    font-weight: 300;
+}
 .billede{
+    max-width: 1200px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -62,14 +87,11 @@ img{
     width: 60px;
     background-color: black;
     color: orange;
-    border-radius: 10px;
+    border-radius: 15px;
 }
-
-
-
-
-
-
-
-
-
+.h1{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    color: black;
+}
