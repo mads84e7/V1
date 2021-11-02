@@ -35,6 +35,13 @@ a{
     background-position-y: center;
     position:relative;
 }
+.div1{
+    margin: 10px;
+    position: absolute;
+    padding: 10px;
+    left: 5px;
+    background-color: rgba(70, 70, 70, 0.5);
+}
 h1{
     color: white;
     font-family: 'Roboto';
@@ -45,13 +52,6 @@ h2{
     font-family: 'Roboto';
     font-weight: 700;
 }
-.div1{
-    margin: 10px;
-    position: absolute;
-    padding: 10px;
-    left: 5px;
-    background-color: rgba(70, 70, 70, 0.5);
-}
 .p{
    color: rgba(70, 70, 70, 0.5);
    font-style: italic;
@@ -59,6 +59,10 @@ h2{
 p{
     font-family: 'Roboto';
     font-weight: 300;
+}
+.nav1{
+    display: flex;
+    justify-content: center;
 }
 .billede{
     max-width: 1200px;
@@ -69,11 +73,13 @@ p{
     gap: 20px;
 }
 .c1, .c2, .c3, .c4, .c5, .c6{
+    border-style: ridge;
+    border-width: 1px;
     background-color: white;
-    width: 300px;
+    max-width: 250px;
 }
 img{
-    width: 300px;
+    width: 200px;
 }
 .div2{
     background-color: black;
@@ -96,8 +102,4 @@ img{
     justify-content: center;
     font-weight: 400;
     color: black;
-}
-.nav1{
-    display: flex;
-    justify-content: center;
 }
