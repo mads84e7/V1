@@ -68,15 +68,19 @@ p{
     max-width: 1200px;
     margin: 20px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
 }
 .c1, .c2, .c3, .c4, .c5, .c6{
+    flex-grow: 1;
     border-style: ridge;
     border-width: 1px;
     background-color: white;
     max-width: 250px;
+}
+.c5, .c6{
+    flex-grow: 1;
 }
 img{
     width: 200px;
