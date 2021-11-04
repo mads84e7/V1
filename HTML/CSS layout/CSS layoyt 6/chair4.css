@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+body{
+    background-image: url("Subtle-Stripes.svg");
+}
+.nav1{
+    max-width: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: black;
+    border-collapse: collapse;
+    color: orange;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+li{
+    padding: 0px 30px 0px 30px ;
+
+}
+.a{
+    color: orange;
+}
+.div{
+    display: flex;
+    justify-content: center;
+}
+.div1{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.div2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+}
+h1{
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+.p{
+    width: 250px;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+.div3{
+    display: flex;
+    gap: 10px;
+    height: 40px;
+    align-items: center;
+}
+.div4{
+    background-color: blue;
+    display: flex;
+    flex-grow: 1;
+    border-style: none;
+    border-width: 2px;
+    border-radius: 10px;
+}
+input{
+    width: 60px;
+}
+.køb{
+    display: flex;
+    justify-content: center;
+    color: green;
+}
+.div5{
+    flex-grow: 1;
+    background-color: black;
+    color: orange;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 300;
+}
