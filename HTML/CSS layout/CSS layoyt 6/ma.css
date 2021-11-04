@@ -78,12 +78,18 @@ p{
     border-width: 1px;
     background-color: white;
     max-width: 250px;
+    
 }
 .c5, .c6{
     flex-grow: 1;
 }
+
+.c1:hover, .c2:hover, .c3:hover, .c4:hover, .c5:hover, .c6:hover{
+    box-shadow: 5px 5px 5px;
+}
 img{
     width: 200px;
+    
 }
 .div2{
     background-color: black;
