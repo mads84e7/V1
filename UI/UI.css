@@ -1,0 +1,22 @@
+body {
+    max-width: 1000px;
+    margin: 50px auto;
+}
+.button {
+    float: right;
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    font-size: large;
+}
+.færdig {
+    float: left;
+    margin-left: 200px;
+}
+.arrow {
+    max-width: 100px;
+    margin:10px 0px 0px 80px;
+}
+.elevheader {
+    margin-bottom:15px;
+}
